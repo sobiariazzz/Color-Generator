@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 330px;
+    
+}
+.btn{
+    color: white;
+    background-color: rgb(56, 51, 214);
+    padding: 10px;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+ 
+}
+.btn:hover{
+    background-color: maroon;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+@media (min-width: 600px) {
+    button {
+        width: auto;
+    }
+}
